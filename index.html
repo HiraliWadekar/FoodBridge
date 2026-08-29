@@ -1,0 +1,1369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FoodBridge | Surplus Food Redistribution</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+
+    <div class="container">
+
+        <a class="navbar-brand fw-bold text-primary fs-4" href="#home">
+            <i class="bi bi-box2-heart-fill"></i>
+            FoodBridge
+        </a>
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="#home">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#how-it-works">
+                        How It Works
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#guide">
+                        Food Guide
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#checker">
+                        Freshness Checker
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#tips">
+                        Eco Tips
+                    </a>
+                </li>
+
+                <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+
+                    <a
+                        class="btn btn-primary px-4"
+                        href="#donate">
+
+                        Donate Food
+
+                    </a>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+<!-- ================= HERO SECTION ================= -->
+
+<section id="home" class="hero-section">
+
+    <div class="container">
+
+        <div class="row align-items-center g-5">
+
+
+            <!-- LEFT CONTENT -->
+
+            <div class="col-lg-7">
+
+                <span class="badge bg-primary-subtle text-primary px-3 py-2 mb-3">
+
+                    <i class="bi bi-heart-fill"></i>
+
+                    Food Redistribution Platform
+
+                </span>
+
+
+                <h1 class="display-4 fw-bold mb-4">
+
+                    Bridge the Gap Between
+                    <span class="text-primary">
+                        Excess Food & Hunger.
+                    </span>
+
+                </h1>
+
+
+                <p class="lead text-secondary mb-4">
+
+                    FoodBridge is a frontend prototype that helps
+                    individuals, restaurants and event organizers
+                    report surplus food and understand how it can
+                    be safely donated instead of wasted.
+
+                </p>
+
+
+                <div class="d-flex flex-wrap gap-3">
+
+                    <a
+                        href="#donate"
+                        class="btn btn-primary btn-lg px-4">
+
+                        <i class="bi bi-box2-heart"></i>
+
+                        Donate Food
+
+                    </a>
+
+
+                    <a
+                        href="#guide"
+                        class="btn btn-outline-primary btn-lg px-4">
+
+                        <i class="bi bi-book"></i>
+
+                        Food Guide
+
+                    </a>
+
+                </div>
+
+
+                <!-- HERO STATS -->
+
+                <div class="hero-stats mt-5">
+
+                    <div>
+                        <strong>3</strong>
+                        <span>SDGs Supported</span>
+                    </div>
+
+                    <div>
+                        <strong>100%</strong>
+                        <span>Frontend Prototype</span>
+                    </div>
+
+                    <div>
+                        <strong>24/7</strong>
+                        <span>Awareness Platform</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- RIGHT CARD -->
+
+            <div class="col-lg-5">
+
+                <div class="hero-card">
+
+                    <div class="food-icon">
+
+                        <i class="bi bi-basket2-fill"></i>
+
+                    </div>
+
+
+                    <h3 class="fw-bold">
+
+                        Every Meal Can Make a Difference.
+
+                    </h3>
+
+
+                    <p class="text-secondary">
+
+                        Share safe surplus food with people
+                        who need it and help reduce unnecessary
+                        food waste.
+
+                    </p>
+
+
+                    <div class="mini-card">
+
+                        <i class="bi bi-check-circle-fill text-success"></i>
+
+                        Check food condition
+
+                    </div>
+
+
+                    <div class="mini-card">
+
+                        <i class="bi bi-check-circle-fill text-success"></i>
+
+                        Submit donation details
+
+                    </div>
+
+
+                    <div class="mini-card">
+
+                        <i class="bi bi-check-circle-fill text-success"></i>
+
+                        Support responsible consumption
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= HOW IT WORKS ================= -->
+
+<section id="how-it-works" class="section">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <span>PROCESS</span>
+
+            <h2>
+                How FoodBridge Works
+            </h2>
+
+            <p>
+                A simple frontend flow for reporting and
+                understanding surplus food donations.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4">
+
+
+            <!-- STEP 1 -->
+
+            <div class="col-md-4">
+
+                <div class="process-card">
+
+                    <div class="process-number">
+                        1
+                    </div>
+
+                    <i class="bi bi-box-seam"></i>
+
+                    <h4>
+                        Identify Surplus Food
+                    </h4>
+
+                    <p>
+                        Find safe, usable food left over
+                        from a home, restaurant or event.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- STEP 2 -->
+
+            <div class="col-md-4">
+
+                <div class="process-card">
+
+                    <div class="process-number">
+                        2
+                    </div>
+
+                    <i class="bi bi-ui-checks"></i>
+
+                    <h4>
+                        Check & Submit
+                    </h4>
+
+                    <p>
+                        Use the frontend tools and donation
+                        form to provide basic food information.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- STEP 3 -->
+
+            <div class="col-md-4">
+
+                <div class="process-card">
+
+                    <div class="process-number">
+                        3
+                    </div>
+
+                    <i class="bi bi-people-fill"></i>
+
+                    <h4>
+                        Connect for Distribution
+                    </h4>
+
+                    <p>
+                        In future phases, backend APIs can
+                        connect the request with NGOs and volunteers.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FOOD GUIDE ================= -->
+
+<section id="guide" class="section section-light">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <span>FOOD GUIDE</span>
+
+            <h2>
+                What Can Be Donated?
+            </h2>
+
+            <p>
+                Basic guidance shown as a frontend awareness feature.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4">
+
+
+            <!-- SUITABLE -->
+
+            <div class="col-md-4">
+
+                <div class="guide-card">
+
+                    <div class="guide-icon bg-success-subtle text-success">
+
+                        <i class="bi bi-check-lg"></i>
+
+                    </div>
+
+
+                    <h4>
+                        Generally Suitable
+                    </h4>
+
+
+                    <ul>
+
+                        <li>Freshly prepared meals</li>
+
+                        <li>Sealed packaged food</li>
+
+                        <li>Fresh fruits and vegetables</li>
+
+                        <li>Unopened dry food items</li>
+
+                    </ul>
+
+
+                    <span class="badge text-bg-success">
+
+                        Check condition first
+
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CHECK CAREFULLY -->
+
+            <div class="col-md-4">
+
+                <div class="guide-card">
+
+                    <div class="guide-icon bg-warning-subtle text-warning">
+
+                        <i class="bi bi-clock-history"></i>
+
+                    </div>
+
+
+                    <h4>
+                        Check Carefully
+                    </h4>
+
+
+                    <ul>
+
+                        <li>Cooked rice and grains</li>
+
+                        <li>Dairy-based food</li>
+
+                        <li>Prepared salads</li>
+
+                        <li>Foods kept for several hours</li>
+
+                    </ul>
+
+
+                    <span class="badge text-bg-warning">
+
+                        Check time & storage
+
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- DO NOT DONATE -->
+
+            <div class="col-md-4">
+
+                <div class="guide-card">
+
+                    <div class="guide-icon bg-danger-subtle text-danger">
+
+                        <i class="bi bi-x-lg"></i>
+
+                    </div>
+
+
+                    <h4>
+                        Do Not Donate
+                    </h4>
+
+
+                    <ul>
+
+                        <li>Spoiled or bad-smelling food</li>
+
+                        <li>Mouldy food</li>
+
+                        <li>Contaminated food</li>
+
+                        <li>Food with damaged packaging</li>
+
+                    </ul>
+
+
+                    <span class="badge text-bg-danger">
+
+                        Safety comes first
+
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FRESHNESS CHECKER ================= -->
+
+<section id="checker" class="section">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <span>SMART TOOL</span>
+
+            <h2>
+                Food Freshness Checker
+            </h2>
+
+            <p>
+                Select a food item and answer a few basic questions.
+                This is a frontend demonstration only.
+            </p>
+
+        </div>
+
+
+        <div class="tool-box mx-auto">
+
+
+            <!-- FOOD -->
+
+            <div class="mb-3">
+
+                <label
+                    for="foodItem"
+                    class="form-label fw-semibold">
+
+                    Food Item
+
+                </label>
+
+
+                <select
+                    id="foodItem"
+                    class="form-select form-select-lg">
+
+                    <option value="">
+                        -- Select food --
+                    </option>
+
+                    <option value="cooked">
+                        Cooked Food
+                    </option>
+
+                    <option value="fruit">
+                        Fresh Fruit
+                    </option>
+
+                    <option value="packaged">
+                        Packaged Food
+                    </option>
+
+                    <option value="dairy">
+                        Dairy Food
+                    </option>
+
+                </select>
+
+            </div>
+
+
+
+            <!-- TIME -->
+
+            <div class="mb-3">
+
+                <label
+                    for="foodHours"
+                    class="form-label fw-semibold">
+
+                    Approximate Time Since Preparation / Opening
+
+                </label>
+
+
+                <select
+                    id="foodHours"
+                    class="form-select">
+
+                    <option value="">
+                        -- Select time --
+                    </option>
+
+                    <option value="2">
+                        Less than 2 hours
+                    </option>
+
+                    <option value="5">
+                        2–5 hours
+                    </option>
+
+                    <option value="8">
+                        5–8 hours
+                    </option>
+
+                    <option value="12">
+                        More than 8 hours
+                    </option>
+
+                </select>
+
+            </div>
+
+
+
+            <!-- STORAGE CHECK -->
+
+            <div class="form-check mb-3">
+
+                <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="storedProperly">
+
+                <label
+                    class="form-check-label"
+                    for="storedProperly">
+
+                    Food was stored/handled properly.
+
+                </label>
+
+            </div>
+
+
+
+            <!-- FRESHNESS CHECK -->
+
+            <div class="form-check mb-4">
+
+                <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="looksFresh">
+
+                <label
+                    class="form-check-label"
+                    for="looksFresh">
+
+                    Food looks and smells fresh.
+
+                </label>
+
+            </div>
+
+
+
+            <button
+                class="btn btn-primary btn-lg w-100"
+                onclick="checkFreshness()">
+
+                <i class="bi bi-search"></i>
+
+                Check Food
+
+            </button>
+
+
+            <div
+                id="checkerResult"
+                class="result-box d-none mt-4">
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= DONATION FORM ================= -->
+
+<section id="donate" class="section section-light">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <span>DONATE</span>
+
+            <h2>
+                Schedule a Food Donation
+            </h2>
+
+            <p>
+                Submit basic information about surplus food.
+                Backend storage will be added in Phase II.
+            </p>
+
+        </div>
+
+
+        <div class="form-box mx-auto">
+
+
+            <form id="donationForm">
+
+
+                <div class="row g-3">
+
+
+                    <!-- NAME -->
+
+                    <div class="col-md-6">
+
+                        <label
+                            for="donorName"
+                            class="form-label">
+
+                            Donor Name
+
+                        </label>
+
+
+                        <input
+                            type="text"
+                            id="donorName"
+                            class="form-control"
+                            placeholder="Enter your name"
+                            required>
+
+                    </div>
+
+
+
+                    <!-- DONOR TYPE -->
+
+                    <div class="col-md-6">
+
+                        <label
+                            for="donorType"
+                            class="form-label">
+
+                            Donor Type
+
+                        </label>
+
+
+                        <select
+                            id="donorType"
+                            class="form-select"
+                            required>
+
+                            <option value="">
+                                Select type
+                            </option>
+
+                            <option>
+                                Individual
+                            </option>
+
+                            <option>
+                                Restaurant
+                            </option>
+
+                            <option>
+                                Event Organizer
+                            </option>
+
+                            <option>
+                                Other
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+
+                    <!-- FOOD TYPE -->
+
+                    <div class="col-md-6">
+
+                        <label
+                            for="foodType"
+                            class="form-label">
+
+                            Food Type
+
+                        </label>
+
+
+                        <select
+                            id="foodType"
+                            class="form-select"
+                            required>
+
+                            <option value="">
+                                Select food type
+                            </option>
+
+                            <option>
+                                Cooked Food
+                            </option>
+
+                            <option>
+                                Fruits & Vegetables
+                            </option>
+
+                            <option>
+                                Packaged Food
+                            </option>
+
+                            <option>
+                                Bakery Items
+                            </option>
+
+                            <option>
+                                Dairy Food
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+
+                    <!-- QUANTITY -->
+
+                    <div class="col-md-6">
+
+                        <label
+                            for="quantity"
+                            class="form-label">
+
+                            Approximate Quantity
+
+                        </label>
+
+
+                        <input
+                            type="text"
+                            id="quantity"
+                            class="form-control"
+                            placeholder="Example: 10 meals"
+                            required>
+
+                    </div>
+
+
+
+                    <!-- LOCATION -->
+
+                    <div class="col-12">
+
+                        <label
+                            for="pickupLocation"
+                            class="form-label">
+
+                            Pickup / Collection Location
+
+                        </label>
+
+
+                        <input
+                            type="text"
+                            id="pickupLocation"
+                            class="form-control"
+                            placeholder="Enter area or location"
+                            required>
+
+                    </div>
+
+
+
+                    <!-- DATE -->
+
+                    <div class="col-md-6">
+
+                        <label
+                            for="pickupDate"
+                            class="form-label">
+
+                            Preferred Date
+
+                        </label>
+
+
+                        <input
+                            type="date"
+                            id="pickupDate"
+                            class="form-control"
+                            required>
+
+                    </div>
+
+
+
+                    <!-- TIME -->
+
+                    <div class="col-md-6">
+
+                        <label
+                            for="pickupTime"
+                            class="form-label">
+
+                            Preferred Time
+
+                        </label>
+
+
+                        <input
+                            type="time"
+                            id="pickupTime"
+                            class="form-control"
+                            required>
+
+                    </div>
+
+
+
+                    <!-- DETAILS -->
+
+                    <div class="col-12">
+
+                        <label
+                            for="foodDetails"
+                            class="form-label">
+
+                            Food Details
+
+                        </label>
+
+
+                        <textarea
+                            id="foodDetails"
+                            class="form-control"
+                            rows="4"
+                            placeholder="Describe the food, packaging and any useful information"
+                            required></textarea>
+
+                    </div>
+
+
+
+                    <!-- CONFIRMATION -->
+
+                    <div class="col-12">
+
+                        <div class="form-check">
+
+                            <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="confirmFood"
+                                required>
+
+
+                            <label
+                                class="form-check-label"
+                                for="confirmFood">
+
+                                I confirm that the information provided
+                                is correct and the food is intended for donation.
+
+                            </label>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- BUTTON -->
+
+                    <div class="col-12">
+
+                        <button
+                            type="submit"
+                            class="btn btn-primary btn-lg w-100">
+
+                            <i class="bi bi-send-fill"></i>
+
+                            Submit Donation Request
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- SUCCESS MESSAGE -->
+
+                <div
+                    id="donationMessage"
+                    class="alert alert-success d-none mt-4">
+
+                    <i class="bi bi-check-circle-fill"></i>
+
+                    Donation request submitted successfully!
+
+                    This is a frontend prototype demo.
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= ECO TIPS ================= -->
+
+<section id="tips" class="section">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <span>ECO TIPS</span>
+
+            <h2>
+                Simple Ways to Reduce Food Waste
+            </h2>
+
+            <p>
+                Small daily actions can support responsible consumption.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4">
+
+
+            <div class="col-md-3 col-6">
+
+                <div class="tip-card">
+
+                    <i class="bi bi-cart-check-fill"></i>
+
+                    <h5>
+                        Plan Purchases
+                    </h5>
+
+                    <p>
+                        Buy only what you need.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-md-3 col-6">
+
+                <div class="tip-card">
+
+                    <i class="bi bi-box-seam-fill"></i>
+
+                    <h5>
+                        Store Properly
+                    </h5>
+
+                    <p>
+                        Keep food stored correctly.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-md-3 col-6">
+
+                <div class="tip-card">
+
+                    <i class="bi bi-arrow-repeat"></i>
+
+                    <h5>
+                        Reuse Safely
+                    </h5>
+
+                    <p>
+                        Use safe leftovers creatively.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-md-3 col-6">
+
+                <div class="tip-card">
+
+                    <i class="bi bi-heart-fill"></i>
+
+                    <h5>
+                        Donate
+                    </h5>
+
+                    <p>
+                        Share safe surplus food.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= SDG SECTION ================= -->
+
+<section class="sdg-section">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <span>SDG ALIGNMENT</span>
+
+            <h2>
+                FoodBridge & Sustainable Development Goals
+            </h2>
+
+        </div>
+
+
+        <div class="row g-4">
+
+
+            <!-- SDG 2 -->
+
+            <div class="col-md-4">
+
+                <div class="sdg-card">
+
+                    <div class="sdg-number">
+                        2
+                    </div>
+
+                    <h4>
+                        Zero Hunger
+                    </h4>
+
+                    <p>
+                        Supports the idea of redirecting safe surplus
+                        food towards people and communities in need.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- SDG 12 -->
+
+            <div class="col-md-4">
+
+                <div class="sdg-card">
+
+                    <div class="sdg-number">
+                        12
+                    </div>
+
+                    <h4>
+                        Responsible Consumption
+                    </h4>
+
+                    <p>
+                        Encourages responsible use of food resources
+                        and reduction of avoidable food waste.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- SDG 11 -->
+
+            <div class="col-md-4">
+
+                <div class="sdg-card">
+
+                    <div class="sdg-number">
+                        11
+                    </div>
+
+                    <h4>
+                        Sustainable Communities
+                    </h4>
+
+                    <p>
+                        Promotes community participation in cleaner
+                        and more sustainable cities.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="row g-4">
+
+
+            <div class="col-md-6">
+
+                <h4 class="fw-bold">
+
+                    <i class="bi bi-box2-heart-fill"></i>
+
+                    FoodBridge
+
+                </h4>
+
+                <p>
+
+                    A Phase-I frontend prototype for surplus food
+                    redistribution and SDG-oriented awareness.
+
+                </p>
+
+            </div>
+
+
+            <div class="col-md-3">
+
+                <h6>
+                    Quick Links
+                </h6>
+
+                <a href="#home">Home</a>
+
+                <a href="#guide">Food Guide</a>
+
+                <a href="#checker">Checker</a>
+
+                <a href="#donate">Donate</a>
+
+            </div>
+
+
+            <div class="col-md-3">
+
+                <h6>
+                    Project
+                </h6>
+
+                <p>
+                    Phase I
+                </p>
+
+                <p>
+                    HTML + CSS
+                </p>
+
+                <p>
+                    Bootstrap + JavaScript
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <hr>
+
+
+        <p class="text-center mb-0">
+
+            © 2026 FoodBridge | PBL Phase I Frontend Prototype
+
+        </p>
+
+    </div>
+
+</footer>
+
+
+
+<!-- Bootstrap JavaScript -->
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+
+<!-- Custom JavaScript -->
+
+<script src="js/script.js"></script>
+
+
+</body>
+
+</html>
